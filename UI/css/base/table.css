@@ -1,0 +1,23 @@
+.m-table {
+    border-spacing: unset;
+    width: 100%;
+    border-collapse: collapse;
+    border: unset;
+}
+
+table.m-table tr {
+    border-bottom: 1px solid #bbb;
+    height: 48px;
+}
+
+table.m-table tr td {
+    padding-left: 40px;
+}
+
+table.m-table tbody tr:nth-child(2n + 1) {
+    background-color: #e9ebee;
+}
+
+table.m-table tbody tr:hover {
+    background-color: rgb(68, 207, 154);
+}

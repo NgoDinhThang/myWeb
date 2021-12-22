@@ -1,0 +1,84 @@
+.layout-right {
+    width: calc(100% - 200px);
+}
+
+.header {
+    height: 48px;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-combobox {
+    /* position: relative; */
+    /* display: flex; */
+    width: 200px;
+    margin-left: 0px;
+    height: 48px;
+}
+
+.btn-header {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-image: url('../../assets/img/SeekPng.com_chevron-logo-png_1350793.png');
+    background-size: 12px 12px;
+    border: none;
+    margin-top: 20px;
+    margin-left: 175px;
+    background-color: unset;
+    cursor: pointer;
+}
+
+.btn-header:hover {
+    background-color: #E9EBEE;
+}
+
+.text-combobox {
+    position: absolute;
+    text-align: center;
+    width: auto;
+    padding-left: 40px;
+    line-height: 48px;
+    font-size: 13px;
+}
+
+.user-img {
+    width: 35px;
+    border-radius: 50%;
+    margin-top: 8px;
+}
+
+.btn-user {
+    background-image: url('../../assets/icon/option.png');
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    border: none;
+    background-position: center center;
+    background-color: unset;
+    width: 40px;
+    height: 40px;
+}
+
+.btn-user:hover {
+    cursor: pointer;
+}
+
+.header-user {
+    position: absolute;
+    width: 200px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-combobox.user-text {
+    margin-left: 8px;
+}
+
+.m-table {
+    right: 20px;
+}
+
+.grid {
+    width: calc(100% - 20px);
+}

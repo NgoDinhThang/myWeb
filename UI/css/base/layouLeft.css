@@ -1,0 +1,68 @@
+.layout-left {
+    width: 200px;
+    border-right: 1px solid #bbb;
+}
+
+.cukcuk-logo {
+    height: 24px;
+    margin: 12px 10px 12px 0px;
+}
+
+.logo {
+    width: 200px;
+    display: flex;
+    height: 48px;
+}
+
+.toggle {
+    width: 24px;
+    height: 24px;
+    margin: 12px 10px 12px 16px;
+}
+
+.menu {
+    width: 200px;
+    display: block;
+}
+
+.btn-menu {
+    width: 200px;
+    background-repeat: no-repeat;
+    height: 48px;
+    background-color: unset;
+    border: none;
+    background-size: 24px;
+    background-position: 16px center;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.btn-menu:hover {
+    cursor: pointer;
+    background-color: #019160;
+    color: white;
+}
+
+#btn-menu1 {
+    background-image: url('../../assets/icon/dashboard.png');
+}
+
+#btn-menu2 {
+    background-image: url('../../assets/icon/report.png');
+}
+
+#btn-menu3 {
+    background-image: url('../../assets/icon/dashboard.png');
+}
+
+#btn-menu4 {
+    background-image: url('../../assets/icon/dic-employee.png');
+}
+
+#btn-menu5 {
+    background-image: url('../../assets/icon/dic-employee.png');
+}
+
+#btn-menu6 {
+    background-image: url('../../assets/icon/setting.png');
+}
